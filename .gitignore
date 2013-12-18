@@ -1,4 +1,3 @@
-# copied from eclipse.platform.debug/.gitignore
 bin/
 *~
 *.rej
@@ -7,6 +6,9 @@ javacore.*
 heapdump.*
 core.*
 Snap.*
+# copied from eclipse.platform.debug/.gitignore
+/*/bin/
+/*/*/bin/
 
 # suggested by github
 *.log
