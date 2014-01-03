@@ -52,5 +52,26 @@
     <module>development/org.eclipse.wst.jsdt.debug.jsd2</module>
     <module>development/org.eclipse.wst.jsdt.debug.node</module>
     <module>development/org.eclipse.wst.jsdt.debug.opera</module>
+
+    <module>tests/org.eclipse.wst.jsdt.core.tests.compiler</module>
+    <module>tests/org.eclipse.wst.jsdt.core.tests.model</module>
+    <module>tests/org.eclipse.wst.jsdt.debug.core.tests</module>
+    <module>tests/org.eclipse.wst.jsdt.debug.rhino.tests</module>
+    <module>tests/org.eclipse.wst.jsdt.ui.tests</module>
+    <module>features/org.eclipse.wst.jsdt_tests.feature</module>
   </modules>
+
+  <repositories>
+    <!-- To reference parent pom -->
+    <repository>
+      <id>Webtools Repository - Releases</id>
+      <name>Webtools Repository - Releases</name>
+      <url>https://repo.eclipse.org/content/repositories/webtools-releases/</url>
+    </repository>
+    <repository>
+      <id>Webtools Repository - Snapshots</id>
+      <name>Webtools Repository - Snapshots</name>
+      <url>https://repo.eclipse.org/content/repositories/webtools-snapshots/</url>
+    </repository>
+  </repositories>
 </project>
