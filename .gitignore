@@ -1,5 +1,6 @@
 # copied from eclipse.platform.debug/.gitignore
-bin/
+/*/bin/
+/*/*/bin/
 *~
 *.rej
 *.bak
@@ -30,6 +31,3 @@ temp.folder
 src.zip
 .fbwarnings
 javaCompiler...args
-
-# maven
-target/
